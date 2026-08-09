@@ -196,4 +196,3 @@ for i in range(7):
     else:
         print(a[i], end="    ")
         temp += 1
-
