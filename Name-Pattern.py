@@ -6,9 +6,31 @@ for ii in name:
     choice.append(ii)
 
 a = []
-n = []
-u = []
+b = []
+c = []
+d = []
+e = []
+f = []
+g = []
+h = []
+i = []
 j = []
+k = []
+l = []
+m = []
+n = []
+o = []
+p = []
+q = []
+r = []
+s = []
+t = []
+u = []
+v = []
+w = []
+x = []
+y = []
+z = []
 
 for ii in choice:
     match (ii):
@@ -115,81 +137,92 @@ for ii in choice:
         case 'Z':
             continue
 
-temp = 0
+print()
+print("Name: ",name)
+print()
+print(f"{"="*30} {name} {"="*30}")
+print()
 
-for i in range(7):
-    if choice[temp] == 'A':
-        print(a[i], end="    ")
-        temp += 1
-    elif choice[temp] == 'C':
-        print(a[i], end="    ")
-        temp += 1
-    elif choice[temp] == 'D':
-        print(a[i], end="    ")
-        temp += 1
-    elif choice[temp] == 'E':
-        print(a[i], end="    ")
-        temp += 1
-    elif choice[temp] == 'F':
-        print(a[i], end="    ")
-        temp += 1
-    elif choice[temp] == 'G':
-        print(a[i], end="    ")
-        temp += 1
-    elif choice[temp] == 'H':
-        print(a[i], end="    ")
-        temp += 1
-    elif choice[temp] == 'I':
-        print(a[i], end="    ")
-        temp += 1
-    elif choice[temp] == 'J':
-        print(a[i], end="    ")
-        temp += 1
-    elif choice[temp] == 'K':
-        print(a[i], end="    ")
-        temp += 1
-    elif choice[temp] == 'L':
-        print(a[i], end="    ")
-        temp += 1
-    elif choice[temp] == 'M':
-        print(a[i], end="    ")
-        temp += 1
-    elif choice[temp] == 'N':
-        print(a[i], end="    ")
-        temp += 1
-    elif choice[temp] == 'O':
-        print(a[i], end="    ")
-        temp += 1
-    elif choice[temp] == 'P':
-        print(a[i], end="    ")
-        temp += 1
-    elif choice[temp] == 'Q':
-        print(a[i], end="    ")
-        temp += 1
-    elif choice[temp] == 'R':
-        print(a[i], end="    ")
-        temp += 1
-    elif choice[temp] == 'S':
-        print(a[i], end="    ")
-        temp += 1
-    elif choice[temp] == 'T':
-        print(a[i], end="    ")
-        temp += 1
-    elif choice[temp] == 'U':
-        print(a[i], end="    ")
-        temp += 1
-    elif choice[temp] == 'V':
-        print(a[i], end="    ")
-        temp += 1
-    elif choice[temp] == 'W':
-        print(a[i], end="    ")
-        temp += 1
-    elif choice[temp] == 'X':
-        print(a[i], end="    ")
-        temp += 1
-    elif choice[temp] == 'Y':
-        print(a[i], end="    ")
-        temp += 1
-    else:
-        print(a[i], end="    ")
-        temp += 1
+for ii in range(7):
+
+    for temp in choice:
+
+        if temp == 'A':
+            print(a[ii], end="    ")
+
+        if temp == 'B':
+            print(b[ii], end="    ")
+
+        if temp == 'C':
+            print(c[ii], end="    ")
+
+        if temp == 'D':
+            print(d[ii], end="    ")
+
+        if temp == 'E':
+            print(e[ii], end="    ")
+
+        if temp == 'F':
+            print(f[ii], end="    ")
+
+        if temp == 'G':
+            print(g[ii], end="    ")
+
+        if temp == 'H':
+            print(h[ii], end="    ")
+
+        if temp == 'I':
+            print(i[ii], end="    ")
+
+        if temp == 'J':
+            print(j[ii], end="    ")
+
+        if temp == 'K':
+            print(k[ii], end="    ")
+
+        if temp == 'L':
+            print(l[ii], end="    ")
+
+        if temp == 'M':
+            print(m[ii], end="    ")
+
+        if temp == 'N':
+            print(n[ii], end="    ")
+
+        if temp == 'O':
+            print(o[ii], end="    ")
+
+        if temp == 'P':
+            print(p[ii], end="    ")
+
+        if temp == 'Q':
+            print(q[ii], end="    ")
+
+        if temp == 'R':
+            print(r[ii], end="    ")
+
+        if temp == 'S':
+            print(s[ii], end="    ")
+
+        if temp == 'T':
+            print(t[ii], end="    ")
+
+        if temp == 'U':
+            print(u[ii], end="    ")
+
+        if temp == 'V':
+            print(v[ii], end="    ")
+
+        if temp == 'W':
+            print(w[ii], end="    ")
+
+        if temp == 'X':
+            print(x[ii], end="    ")
+
+        if temp == 'Y':
+            print(y[ii], end="    ")
+
+        if temp == 'Z':
+            print(z[ii], end="    ")
+
+    print()
