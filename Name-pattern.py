@@ -193,6 +193,6 @@ for i in range(7):
     elif choice[temp] == 'Y':
         print(a[i], end="    ")
         temp += 1
-    else choice[temp] == 'Z':
+    else:
         print(a[i], end="    ")
         temp += 1
