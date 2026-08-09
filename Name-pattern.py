@@ -119,8 +119,8 @@ temp = 0
 
 for i in range(7):
     if choice[temp] == 'A':
-    print(a[i], end="    ")
-    temp += 1
+        print(a[i], end="    ")
+        temp += 1
     elif choice[temp] == 'B':
         print(a[i], end="    ")
         temp += 1
