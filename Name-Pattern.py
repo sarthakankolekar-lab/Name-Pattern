@@ -38,54 +38,141 @@ for ii in choice:
             for ii in range(7):
                 temp = ""
                 for ij in range(7):
-                    if ii == 0 or ii == 3 or ij == 0 or ij == 6:
+                    if (ii == 0 and ij > 0 and ij < 6) or ii == 3 or (ij == 0 and ii > 0) or (ij == 6 and ii > 0):
                         temp += "* "
                     else:
                         temp += "  "
                 a.append(temp)
 
         case 'B':
-            continue
+            for ii in range(7):
+                temp = ""
+                for ij in range(7):
+                    if (ii == 0 and ij < 6) or ii == 3 or (ii == 6 and ij < 6) or ij == 0 or (ij == 6 and ii > 0 and ii < 6):
+                        temp += "* "
+                    else:
+                        temp += "  "
+                b.append(temp)
         
         case 'C':
-            continue
+            for ii in range(7):
+                temp = ""
+                for ij in range(7):
+                    if (ii == 0 and ij > 0) or (ii == 6 and ij > 0) or (ij == 0 and ii > 0 and ii < 6):
+                        temp += "* "
+                    else:
+                        temp += "  "
+                c.append(temp)
         
         case 'D':
-            continue
+            for ii in range(7):
+                temp = ""
+                for ij in range(7):
+                    if (ii == 0 and ij < 6) or (ii == 6 and ij < 6) or ij == 0 or (ij == 6 and ii > 0 and ii < 6):
+                        temp += "* "
+                    else:
+                        temp += "  "
+                d.append(temp)
         
         case 'E':
-            continue
+            for ii in range(7):
+                temp = ""
+                for ij in range(7):
+                    if ii == 0 or ii == 6 or ii == 3 or ij == 0:
+                        temp += "* "
+                    else:
+                        temp += "  "
+                e.append(temp)
         
         case 'F':
-            continue
+            for ii in range(7):
+                temp = ""
+                for ij in range(7):
+                    if ii == 0 or ii == 3 or ij == 0:
+                        temp += "* "
+                    else:
+                        temp += "  "
+                f.append(temp)
         
         case 'G':
-            continue
+            for ii in range(7):
+                temp = ""
+                for ij in range(7):
+                    if (ii == 0 and ij > 0) or (ii == 3 and ij > 2 and ij < 6) or (ii == 6 and ij > 0 and ij < 6) or (ij == 0 and ii > 0 and ii < 6) or (ij == 6 and ii > 3 and ii < 6):
+                        temp += "* "
+                    else:
+                        temp += "  "
+                g.append(temp)
         
         case 'H':
-            continue
+            for ii in range(7):
+                temp = ""
+                for ij in range(7):
+                    if ii == 3 or ij == 0 or ij == 6:
+                        temp += "* "
+                    else:
+                        temp += "  "
+                h.append(temp)
         
         case 'I':
-            continue
+            for ii in range(7):
+                temp = ""
+                for ij in range(7):
+                    if ii == 0 or ii == 6 or ij == 3:
+                        temp += "* "
+                    else:
+                        temp += "  "
+                i.append(temp)
         
         case 'J':
             for ii in range(7):
                 temp = ""
                 for ij in range(7):
-                    if ii == 6 or (ii > 3 and ij == 0) or ij == 6:
+                    if (ii == 6 and ij > 0 and ij < 6) or (ii > 3 and ij == 0 and ii < 6) or (ij == 6 and ii < 6):
                         temp += "* "
                     else:
                         temp += "  "
                 j.append(temp)
                 
         case 'K':
-            continue
+            for ii in range(4,0,-1):
+                temp = ""
+                for ij in range(7):
+                    if ij == ii or ij == 0:
+                        temp += "* "
+                    else:
+                        temp += "  "
+                k.append(temp)
+            for ii in range(5):
+                temp = ""
+                if ii < 2:
+                    continue
+                for ij in range(7):
+                    if ij == ii or ij == 0:
+                        temp += "* "
+                    else:
+                        temp += "  "
+                k.append(temp)
         
         case 'L':
-            continue
+            for ii in range(7):
+                temp = ""
+                for ij in range(7):
+                    if (ii == 6 and ij < 6) or ij == 0:
+                        temp += "* "
+                    else:
+                        temp += "  "
+                l.append(temp)
         
         case 'M':
-            continue
+            for ii in range(7):
+                temp = ""
+                for ij in range(7):
+                    if (ii < 4 and ii == ij and ij < 4) or (ii < 3 and 7 - ii - 1 == ij and ij > 3) or (ij == 0 and ii > 0) or (ij == 6 and ii > 0):
+                        temp += "* "
+                    else:
+                        temp += "  "
+                m.append(temp)
         
         case 'N':
             for ii in range(7):
@@ -98,44 +185,124 @@ for ii in choice:
                 n.append(temp)
                 
         case 'O':
-            continue
+            for ii in range(7):
+                temp = ""
+                for ij in range(7):
+                    if (ii == 0 and ij > 0 and ij < 6) or (ii == 6 and ij > 0 and ij < 6) or (ij == 0 and ii > 0 and ii < 6) or (ij == 6 and ii > 0 and ii < 6):
+                        temp += "* "
+                    else:
+                        temp += "  "
+                o.append(temp)
         
         case 'P':
-            continue
+            for ii in range(7):
+                temp = ""
+                for ij in range(7):
+                    if (ii == 0 and ij < 6) or (ii == 3 and ij < 6) or ij == 0 or (ij == 6 and ii < 3 and ii > 0):
+                        temp += "* "
+                    else:
+                        temp += "  "
+                p.append(temp)
         
         case 'Q':
-            continue
+            for ii in range(7):
+                temp = ""
+                for ij in range(7):
+                    if (ii == 0 and ij > 0 and ij < 6) or (ii > 2 and ii == ij) or (ii == 6 and ij > 0 and ij < 5) or (ij == 0 and ii > 0 and ii < 6) or (ij == 6 and ii > 0 and ii < 5):
+                        temp += "* "
+                    else:
+                        temp += "  "
+                q.append(temp)
         
         case 'R':
-            continue
+            for ii in range(7):
+                temp = ""
+                for ij in range(7):
+                    if (ii == 0 and ij < 6) or (ii > 3 and ii == ij) or (ii == 3 and ij < 6) or ij == 0 or (ij == 6 and ii > 0 and ii < 3):
+                        temp += "* "
+                    else:
+                        temp += "  "
+                r.append(temp)
         
         case 'S':
-            continue
+            for ii in range(7):
+                temp = ""
+                for ij in range(7):
+                    if (ii == 0 and ij > 0 and ij < 6) or (ii == 3 and ij > 0 and ij < 6) or (ii == 6 and ij > 0 and ij < 6) or (ij == 0 and ii > 0 and ii < 3) or (ij == 6 and ii > 3 and ii < 6):
+                        temp += "* "
+                    else:
+                        temp += "  "
+                s.append(temp)
         
         case 'T':
-            continue
+            for ii in range(7):
+                temp = ""
+                for ij in range(7):
+                    if ii == 0 or ij == 3:
+                        temp += "* "
+                    else:
+                        temp += "  "
+                t.append(temp)
         
         case 'U':
             for ii in range(7):
                 temp = ""
                 for ij in range(7):
-                    if ii == 6 or ij == 0 or ij == 6:
+                    if (ii == 6 and ij > 0 and ij < 6) or (ij == 0 and ii < 6) or (ij == 6 and ii < 6):
                         temp += "* "
                     else:
                         temp += "  "
                 u.append(temp)
                 
         case 'V':
-            continue
+            for ii in range(7):
+                temp = ""
+                for ij in range(7):
+                    if (ii == 0 and (ij == 0 or ij == 6)) or (ii == 2 and ii > 1 and (ij == 1 or ij == 5)) or (ii == 4 and ii > 3 and (ij == 2 or ij == 4)) or (ij == 3 and ii == 6):
+                        temp += "* "
+                    else:
+                        temp += "  "
+                v.append(temp)
         
         case 'W':
-            continue
+            for ii in range(7):
+                temp = ""
+                for ij in range(6,-1,-1):
+                    if ij == 6 or ij == 0 or (ii == ij and ii > 2) or (ij == 6 - ii and ii > 3):
+                        temp += "* "
+                    else:
+                        temp += "  "
+                w.append(temp)
+                
         case 'X':
-            continue
+            for ii in range(7):
+                temp = ""
+                for ij in range(7):
+                    if ii == ij or (ij == 6 - ii):
+                        temp += "* "
+                    else:
+                        temp += "  "
+                x.append(temp)
+                
         case 'Y':
-            continue
+            for ii in range(7):
+                temp = ""
+                for ij in range(7):
+                    if (ii == ij and ii < 3) or (ij == 6 - ii and ii < 4) or (ii > 3 and ij == 3):
+                        temp += "* "
+                    else:
+                        temp += "  "
+                y.append(temp)
+                
         case 'Z':
-            continue
+            for ii in range(7):
+                temp = ""
+                for ij in range(7):
+                    if ii == 0 or ii == 6 or (ij == 6 - ii):
+                        temp += "* "
+                    else:
+                        temp += "  "
+                z.append(temp)
 
 print()
 print("Name: ",name)
