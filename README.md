@@ -63,7 +63,7 @@ Name:  ANUJA
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/Name-Pattern-Printer.git
+git clone https://github.com/sarthakankolekars-lab/Name-Pattern-Printer.git
 ```
 
 Open the project folder:
